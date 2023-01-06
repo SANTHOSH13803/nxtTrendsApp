@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.details {
+  box-shadow: 0px 4px 10px 4px #bfbfbf;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.details h1 {
+  font-size: 16px;
+  color: #616e7c;
+}
+.details h1 span {
+  color: #171f46;
+  font-size: 25px;
+}
+.details p {
+  color: #616e7c;
+  font-weight: bold;
+}
+.details button {
+  color: white;
+  border: none;
+  background-color: #0b69ff;
+  cursor: pointer;
+  padding: 10px;
+  flex-grow: 1;
+}
